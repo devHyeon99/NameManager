@@ -1,0 +1,14 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript", // 파서 문법을 typescript로 변경
+      "tsx": true
+    },
+    "transform": {
+      "react": {
+        "runtime": "automatic",
+        "importSource": "@emotion/react" // Emotion의 css prop을 위한 설정
+      }
+    }
+  }
+}
